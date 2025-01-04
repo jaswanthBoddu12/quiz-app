@@ -1,0 +1,53 @@
+.quiz-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f0f8ff; /* Light Alice Blue */
+    color: #333; /* Dark Gray for better contrast */
+}
+
+.question-container {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for clarity */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Softer shadow for a modern look */
+}
+
+.question-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Deep Blue for header emphasis */
+}
+
+.options div {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #3498db; /* Modern Blue */
+    border: none;
+    color: #fff; /* White text for contrast */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:disabled {
+    background-color: #bdc3c7; /* Light Gray */
+    cursor: not-allowed; /* Disabled cursor */
+}
+
+.score {
+    font-size: 28px;
+    font-weight: bold;
+    color: #16a085; /* Teal for scoring emphasis */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker Blue for hover */
+}
